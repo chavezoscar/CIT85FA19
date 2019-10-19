@@ -1,0 +1,17 @@
+/* Targest list element */
+li{
+    font-size: 18px;
+    color: red;
+}
+
+/* Targets list elements with class 'next33' */
+.next33{
+    font-size: 24px;
+    color: orange;
+}
+
+/* Target id 'number67' */
+#number67{
+    font-size: 64px;
+    color: yellow;
+}
