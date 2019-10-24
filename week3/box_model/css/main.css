@@ -1,0 +1,33 @@
+.inlineDiv{
+    border: 5px solid green;
+    display: inline;
+    box-sizing: border-box;
+    background-color: hotpink;
+}
+.seperate{
+    margin: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+.block{
+    display: block;
+    background-color: red;
+    border: 2px groove green;
+}
+
+.inlineBlock{
+    display: inline-block;
+    background-color: teal;
+    width: 50px;
+}
+
+#nextTo{
+    background-color: blueviolet;
+    width: 100px;
+}
+
+span{
+    color: white;
+}
