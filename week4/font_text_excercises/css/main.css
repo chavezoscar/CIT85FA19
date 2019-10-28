@@ -1,6 +1,7 @@
 h1 {
     font-size: 4vw;
-    
+    text-shadow:5px 2px 10px red;
+    text-align: center;
 }
 
 
@@ -23,9 +24,23 @@ p#spacing{
    /* kerning is between chars */
 }
 
+a{
+    text-decoration: none;
+    color: teal;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
 p#strikethrough{
     text-decoration:line-through red;
     word-spacing: 1rem;
+}
+
+p#indent{
+    text-indent: 2rem;
 }
 
 p#one{
