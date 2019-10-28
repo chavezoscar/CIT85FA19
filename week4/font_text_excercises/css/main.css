@@ -1,0 +1,41 @@
+h1 {
+    font-size: 4vw;
+    
+}
+
+
+p#sanserif{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+p#serif {
+    font-family: serif;
+    font-size: 1rem;
+}
+
+p#upperItalics{
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+p#spacing{
+    letter-spacing: 0.5rem; 
+   /* kerning is between chars */
+}
+
+p#strikethrough{
+    text-decoration:line-through red;
+    word-spacing: 1rem;
+}
+
+p#one{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+p#two{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style:oblique;
+}
