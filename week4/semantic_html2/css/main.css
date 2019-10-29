@@ -1,0 +1,23 @@
+h1{
+    display: inline-block;
+    width: .5;
+    box-sizing: border-box;
+    height: .5rem;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+    height: 1rem;
+}
+li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+img{
+    display: inline-block;
+    height: 3rem;
+    width: 4rem;
+    box-sizing: border-box; 
+}
