@@ -1,6 +1,5 @@
 h1{
     display: inline-block;
-    width: .5;
     box-sizing: border-box;
     height: .5rem;
 }
@@ -20,4 +19,8 @@ img{
     height: 3rem;
     width: 4rem;
     box-sizing: border-box; 
+}
+
+body{
+    padding: 1rem;
 }
