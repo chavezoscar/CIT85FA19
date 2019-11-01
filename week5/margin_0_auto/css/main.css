@@ -1,0 +1,28 @@
+html{
+    background-color: blue;
+}
+
+body{
+    width: 70%;
+    margin: 0 auto;
+    background-color: green;
+    border: 5px solid black;
+    
+}
+
+img{
+    display: block;
+    border: 10px groove yellow;
+    border-radius: 100%;
+    margin: 0 auto;
+    height: 13rem;
+    width: 18rem;
+}
+
+#header001{
+    color: aqua;
+}
+
+#header002{
+    color: red;
+}
