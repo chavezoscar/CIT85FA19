@@ -1,0 +1,21 @@
+
+body {
+    border: 3px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+div {
+    width: 100px;
+    height:100px;
+    margin: 5px;
+    background-color: yellow;
+    border: 2px solid blue;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+
