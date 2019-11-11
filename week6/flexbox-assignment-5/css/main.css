@@ -1,0 +1,36 @@
+html{
+justify-content: center;
+display: flex;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60%;
+    align-items: stretch;
+}
+
+div{
+    height: 100px;
+    font-size: 30px;
+    flex-grow: 1;
+    color: white;
+}
+
+div#one{
+    height: 100%;
+    width: 25%;
+    background-color: darkblue;
+}
+
+div.two{
+    border: 2px solid red;
+    width: 75%;
+    background-color: royalblue;
+}
+
+div#three{
+    width: 75%;
+    background-color: lightblue;
+}
