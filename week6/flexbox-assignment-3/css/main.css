@@ -1,0 +1,45 @@
+html{
+    border: 2px dotted red;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+div{
+    height: 80px;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+div#one{
+    width: 100%;
+    flex-grow: 1;
+    background-color: red;
+}
+
+div#two{
+    width: 59%;
+    background-color: lightblue;
+}
+
+div#three{
+    width: 39%;
+    background-color: lightgreen;
+}
+
+div#four{
+    width: 49%;
+    background-color: yellow;
+}
+div#five{
+    width: 49%;
+    background-color: purple;
+}
+
+/* display: flex;
+  align-items: center;
+  justify-content: center; */
