@@ -1,0 +1,40 @@
+nav, ul, li, main, section{
+    box-sizing: border-box;
+}
+
+
+nav, main{
+    border: 3px solid red;
+}
+body{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+li{
+    text-decoration: none;
+    padding: 10px;
+    list-style: none;
+}
+
+main{
+    width: 100%;
+    padding: 10px;
+}
+
+section{
+    margin-bottom: 10px;
+}
