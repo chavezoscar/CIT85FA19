@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid blueviolet;   
+    /* takes up whole viewport height */
+    height: 100vh; 
+    /* width: 100vw; */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fb/Futuristic_Albino_Doll_Sculpture%2C_Android%2C_Clone_or_Robot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+
+p{
+    font-size: 3rem;
+    color: red;
+}
