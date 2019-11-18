@@ -1,0 +1,30 @@
+body{
+    font-weight: bold;
+    color: white;
+}
+
+header, article, aside, footer{
+    padding: 10px;
+    text-align: center;
+}
+
+header{
+    background-color: slateblue;
+}
+
+article{
+    text-align: left;
+    background: blueviolet;
+}
+
+aside:nth-child(3){
+    background: purple;
+}
+
+aside:nth-child(4){
+    background: blue;
+}
+
+footer{
+    background: lightskyblue;
+}
