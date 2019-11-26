@@ -1,0 +1,40 @@
+header, nav, main, footer{
+    border-radius: 10px;
+}
+
+body{
+    margin: 10px;
+}
+
+header{
+    border:3px solid red;
+    height: 60px;
+    background-color: aqua;
+    margin-bottom: 5px;
+}
+
+nav{
+    border: 1px solid orange;
+    float: left;
+    width: 25%;
+    height: 150px;
+    margin-bottom: 5px;
+    background-color: blueviolet;
+}
+
+main{
+    border: 2px solid yellow;
+    float: right;
+    width: 74%;
+    height: 150px;
+    background-color: blue;
+    margin-bottom: 5px;
+}
+
+footer{
+    border: 3px solid aqua;
+    clear: both;
+    height: 60px;
+    background-color: purple;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,40 @@
+header, nav, main, footer{
+    border-radius: 10px;
+}
+
+
+header{
+    display: inline-block;
+    border:3px solid red;
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    margin-bottom: 5px;
+}
+
+nav{
+    display: inline-block;
+    border: 1px solid orange;
+    width: 25%;
+    height: 150px;
+    margin-bottom: 5px;
+    background-color: blueviolet;
+}
+
+main{
+    display: inline-block;
+    border: 1px solid yellow;
+    width: 73%;
+    height: 150px;
+    background-color: blue;
+    margin-bottom: 5px;
+}
+
+footer{
+    display: inline-block;
+    width: 100%;
+    border: 3px solid aqua;
+    height: 60px;
+    background-color: purple;
+    margin-bottom: 5px;
+}
