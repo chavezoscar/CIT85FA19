@@ -7,6 +7,8 @@ header{
     background-color: goldenrod;
     position: fixed;
     width: 100%;
+    box-shadow:10px 0px 10px 10px red;
+
 }
 
 li{
@@ -40,6 +42,7 @@ a:hover{
     background-size: cover;
     /* background-origin: border-box; */
     background-attachment: fixed;
+
 }
 
 #idx-atf > div {
@@ -86,8 +89,32 @@ button{
     border-radius: 3px;
 }
 
+span{
+    color: red;
+}
+
+#list{
+    color: black;
+    padding-bottom: 20px;
+}
+
 button:hover{
     color: whitesmoke;
     border: 2px solid rgb(253, 223, 179);
 
+}
+
+footer{
+    display: flex;
+    bottom: 0;
+    padding-top: 5px;
+    width: 100%;
+    background-color: goldenrod;
+    box-shadow:10px 0px 10px 10px red;
+
+}
+
+img{
+    float: left;
+    max-width: 10%;
 }
