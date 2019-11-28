@@ -1,12 +1,28 @@
 html{
-    /* border: 5px solid blue; */
-
+    font-family: 'Gupter', serif;
+    color: whitesmoke;
 }
 
-body{
-    /* border: 5px solid red; */
+header{
+    background-color: goldenrod;
+    position: fixed;
+    width: 100%;
 }
 
+li{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+a{
+    display: block;
+    padding: 1em;
+}
+
+a:hover{
+    color: black;
+}
 
 #idx-atf{
     height: 100vh;
@@ -16,14 +32,62 @@ body{
     justify-content: center;
     /* Secondary axis - column  */
     align-items: center;
-    border: 5px solid burlywood;
+    /* border: 5px solid burlywood; */
+    background-color: darkgoldenrod;
+    background-image: url(" https://upload.wikimedia.org/wikipedia/commons/d/df/2014-06_Israel_-_Jerusalem_040_%2814754310620%29.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    /* background-origin: border-box; */
+    background-attachment: fixed;
 }
 
-.idx-center{
+#idx-atf > div {
+    height: 18vh;
+}
+
+.idx-center-spacebetween{
+    display: flex;
+    flex-flow: column nowrap;
+    /* primary along veritcal axis */
+    justify-content: space-between;
+    /* secondary along horizontal due to column */
+    align-items: center;
+}
+
+.idx-center-center{
     display: flex;
     flex-flow: column nowrap;
     /* primary along veritcal axis */
     justify-content: center;
     /* secondary along horizontal due to column */
     align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+button{
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: 2px solid rgb(212, 132, 10);
+    color: rgb(255, 102, 0);
+    padding: .7rem 1.2rem;
+    border-radius: 3px;
+}
+
+button:hover{
+    color: whitesmoke;
+    border: 2px solid rgb(253, 223, 179);
+
 }
