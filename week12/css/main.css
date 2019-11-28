@@ -1,0 +1,29 @@
+html{
+    /* border: 5px solid blue; */
+
+}
+
+body{
+    /* border: 5px solid red; */
+}
+
+
+#idx-atf{
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    /* primiary axis - row */
+    justify-content: center;
+    /* Secondary axis - column  */
+    align-items: center;
+    border: 5px solid burlywood;
+}
+
+.idx-center{
+    display: flex;
+    flex-flow: column nowrap;
+    /* primary along veritcal axis */
+    justify-content: center;
+    /* secondary along horizontal due to column */
+    align-items: center;
+}
