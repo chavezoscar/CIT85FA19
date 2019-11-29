@@ -12,16 +12,17 @@ body{
 div{
     height: 15vh;
     width: 15vw;
-    border-radius: 100%;
-    background-color: red;
-    
+    border-radius: 100%;    
 }
 
 div{
     animation-name: change;
+    animation-timing-function: ease;
     animation-duration: 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
 }
 
 @keyframes change{
@@ -33,10 +34,6 @@ div{
     }
 } 
 
-
-div:hover{
-    background-color: blueviolet;
-}
 
 #transition{
     transition-property: all;
