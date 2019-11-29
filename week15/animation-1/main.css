@@ -19,7 +19,7 @@ div{
 
 div{
     animation-name: change;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
     animation-duration: 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -31,6 +31,7 @@ div{
     0% { 
         background-color: red;
         left: 0;
+        transform: rotate(0deg);
     }
     /* 25%{
         left: 25%;
@@ -40,8 +41,9 @@ div{
     } */
 
     100% {
-        background-color: orange;
+        background-color: blueviolet;
         left: 83%;
+        transform: rotate(360deg);
     }
 } 
 
