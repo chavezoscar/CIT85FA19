@@ -1,0 +1,140 @@
+html{
+    font-family: 'Gupter', serif;
+    color: whitesmoke;
+    background-color:rgb(63, 228, 151);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    position: fixed;
+    width: 100%;
+    box-shadow:10px 0px 10px 10px greenyellow;
+
+}
+
+li{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+a{
+    display: block;
+    padding: 1em;
+}
+
+a:hover{
+    color: black;
+}
+
+#idx-atf{
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    /* primiary axis - row */
+    justify-content: center;
+    /* Secondary axis - column  */
+    align-items: center;
+    /* border: 5px solid burlywood; */
+    background-color: darkgoldenrod;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c6/Cannabis_02_bgiu.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    /* background-origin: border-box; */
+    background-attachment: fixed;
+
+}
+
+#idx-atf > div {
+    height: 18vh;
+}
+
+.idx-center-spacebetween{
+    display: flex;
+    flex-flow: column nowrap;
+    /* primary along veritcal axis */
+    justify-content: space-between;
+    /* secondary along horizontal due to column */
+    align-items: center;
+}
+
+.idx-center-center{
+    display: flex;
+    flex-flow: column nowrap;
+    /* primary along veritcal axis */
+    justify-content: center;
+    /* secondary along horizontal due to column */
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+h3{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+
+button{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(81, 248, 3);
+    padding: .7rem 1.2rem;
+    border-radius: 10px;
+    border: 3px solid greenyellow;
+}
+
+span{
+    color:black;
+}
+
+#list{
+    color: black;
+    padding-bottom: 20px;
+}
+
+button:hover{
+    color: whitesmoke;
+    border: 2px solid rgb(253, 223, 179);
+
+}
+
+p{
+    padding: 2vh;
+    text-indent: 2em;
+}
+
+footer{
+    display: flex;
+    bottom: 0;
+    padding-top: 5px;
+    width: 100%;
+    background-color: green;
+    box-shadow:10px 0px 10px 10px greenyellow;
+    text-transform: uppercase;
+}
+
+img{
+
+    float: left;
+    max-height: 15%;
+    max-width: 15%;
+}
+
+#me{
+    border: 2px  ridge greenyellow;
+    border-radius: 50%;
+    max-height: 10vh;
+    max-width: 10vw;
+}
